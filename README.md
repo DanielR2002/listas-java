@@ -1,24 +1,22 @@
+## 🌳 Diagrama do Projeto
+
 ```mermaid
 flowchart TD
-    Principal[Principal.java]
-    Interface[Interface.java]
-    Lista[Lista.java]
-    Pilha[Pilha.java]
-    Fila[Fila.java]
+    A[Principal.java] --> B[Interface.java]
 
-    Principal --> Interface
-    Interface --> Lista
-    Interface --> Pilha
-    Interface --> Fila
+    B --> C[Lista.java]
+    B --> D[Pilha.java]
+    B --> E[Fila.java]
 
-    Lista --> L1[inserir(valor)]
-    Lista --> L2[mostrar()]
+    C --> C1[inserir(valor)]
+    C --> C2[mostrar()]
 
-    Pilha --> P1[empilhar(valor)]
-    Pilha --> P2[desempilhar()]
-    Pilha --> P3[mostrar()]
+    D --> D1[empilhar(valor)]
+    D --> D2[desempilhar()]
+    D --> D3[mostrar()]
 
-    Fila --> F1[enfileirar(valor)]
-    Fila --> F2[desenfileirar()]
-    Fila --> F3[mostrar()]
+    E --> E1[enfileirar(valor)]
+    E --> E2[desenfileirar()]
+    E --> E3[mostrar()]
+
 
