@@ -1,13 +1,24 @@
-# 🧩 Estruturas de Dados em Java (TDA)
+```mermaid
+flowchart TD
+    Principal[Principal.java]
+    Interface[Interface.java]
+    Lista[Lista.java]
+    Pilha[Pilha.java]
+    Fila[Fila.java]
 
-Projeto desenvolvido como parte da **Lista de Exercícios – TDA (Tipos de Dados Abstratos)**, proposto pelo professor **Odair Gabriel**.  
-O objetivo é implementar e testar as principais estruturas lineares em Java: **Lista**, **Pilha** e **Fila**, além de um **menu interativo** que permite manipular cada uma delas pelo console.
+    Principal --> Interface
+    Interface --> Lista
+    Interface --> Pilha
+    Interface --> Fila
 
----
+    Lista --> L1[inserir(valor)]
+    Lista --> L2[mostrar()]
 
-## 🚀 Tecnologias utilizadas
-- Linguagem: **Java**
-- IDE  **IntelliJ IDEA** 
-- JDK: **17** 
+    Pilha --> P1[empilhar(valor)]
+    Pilha --> P2[desempilhar()]
+    Pilha --> P3[mostrar()]
 
+    Fila --> F1[enfileirar(valor)]
+    Fila --> F2[desenfileirar()]
+    Fila --> F3[mostrar()]
 
