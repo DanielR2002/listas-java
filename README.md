@@ -1,22 +1,34 @@
-## 🌳 Diagrama do Projeto
+# 🧩 Lista de Exercícios – Estruturas de Dados em Java (TDA)
 
-```mermaid
-flowchart TD
-    A[Principal.java] --> B[Interface.java]
+Repositório criado para armazenar as implementações dos exercícios propostos na disciplina de **Estruturas de Dados**, utilizando a linguagem **Java**.
 
-    B --> C[Lista.java]
-    B --> D[Pilha.java]
-    B --> E[Fila.java]
+---
 
-    C --> C1[inserir(valor)]
-    C --> C2[mostrar()]
+## 👨‍💻 Informações do Aluno
 
-    D --> D1[empilhar(valor)]
-    D --> D2[desempilhar()]
-    D --> D3[mostrar()]
+- **Nome:** Daniel Rodrigues da Costa  
+- **RA:** 2403860  
+- **Curso:** Ciência da Computação  
+- **Instituição:** Faculdade Impacta  
+- **Professor:** Odair Gabriel  
 
-    E --> E1[enfileirar(valor)]
-    E --> E2[desenfileirar()]
-    E --> E3[mostrar()]
+---
+
+## 📘 Descrição do Projeto
+
+Este projeto tem como objetivo o desenvolvimento e teste de **Tipos de Dados Abstratos (TDA)** em Java, aplicando conceitos fundamentais de **estruturas lineares**.
+
+Foram implementadas as seguintes classes:
+
+| Classe | Descrição |
+|--------|------------|
+| `Lista.java` | Implementa uma lista simples com vetor fixo de 5 elementos. |
+| `Pilha.java` | Implementa uma pilha com comportamento LIFO (*Last In, First Out*). |
+| `Fila.java` | Implementa uma fila com comportamento FIFO (*First In, First Out*). |
+| `Principal.java` | Classe principal com menu interativo para testar as três estruturas. |
+
+---
+
+
 
 
